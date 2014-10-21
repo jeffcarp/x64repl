@@ -1,0 +1,49 @@
+<!doctype>
+<html>
+  <head>
+    <title>x64 REPL</title>
+    <style>
+      * { margin: 0; padding: 0; }
+      body {
+        -webkit-font-smoothing: antialiased;
+        font-family: Helvetica;
+        color: white;
+        background-color: #222;
+        font-size: 16px;
+      }
+      #container {
+        max-width: 500px;
+        margin: 5em auto 0;
+      }
+      #container p {
+      }
+      #container input {
+        font-size: 1.6em;
+        padding: 0.2em;
+        border: solid 3px #444;
+        width: 97%;
+        margin: 0 0 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="react-root"></div>
+    </div>
+
+    <script
+      src="http://cdn.partywavejs.org/react+x64js"
+      ></script>
+    <script
+      src="http://fb.me/JSXTransformer-0.11.2.js"
+      ></script>
+    <script
+      src="/computer.js"
+      type="text/jsx"
+      ></script>
+    <script
+      src="/root.js"
+      type="text/jsx"
+      ></script>
+  </body>
+</html>
